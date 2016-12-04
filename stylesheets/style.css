@@ -1,0 +1,55 @@
+/*layout*/
+body {font: .81em/150% Arial, Helvetica, sans-serif;}
+a {text-decoration:none;outline:none;}
+a:hover {text-decoration:underline;}
+p {margin:0;padding: 0;}
+.clearfix:after{content: "";clear:both;display:block;}
+.clearfix{margin-bottom: 30px;}
+body{background: #0d1424 url(../images/background.jpg) no-repeat center top;background-attachment:fixed;}
+
+
+/* headings */
+h1, h2, h3{color:#373938}
+h1 {font-size: 2em;}
+h2 {font-size: 1.6em;}
+h3 {font-size: 1.4em;}
+h2{height:106px;line-height:106px;}
+h3{height:50px;line-height:50px; }
+
+/*menu*/
+#mainMenu{width:200px;height:100%;line-height:50px;background-color:rgba(0,0,0,0.3);filter:alpha(opacity=30);
+	position:fixed;left:0;z-index:3;}
+#mainMenu p{border-top: 2px solid #06cbbc;}
+.avatar{width:100%;text-align:center;}
+    .avatar a{display:inline-block;}
+	.avatar img{width:46px;height:46px;border-radius:50%;-webkit-border-radius:50%;-moz-border-radius:50%;}
+.mainNav{width:100%;}
+    .mainNav li{width:100%;}
+	.mainNav a{color:#fff;font-size:14px;display:inline-block;width:100%;text-align:center;}
+	.mainNav a:hover{font-weight:bold;color:#06cbbc;text-decoration:none;background-color:rgba(0,0,0,0.3);
+		filter:alpha(opacity=30);}
+.contact{margin-top:40px;padding-left: 20px;}
+.contact a{text-decoration:none;color:#000;}
+    .phone{padding-left:26px;background:url(../images/phone.png)left no-repeat;background-size:20px 20px;}
+	.email{padding-left:26px;background:url(../images/email.png)left no-repeat;background-size:20px 20px;}
+	.weixin{padding-left:26px;background:url(../images/weixin.png)left no-repeat;background-size:20px 20px;}
+/*content*/
+#content{text-align:center;width:960px;margin:0 auto;margin-left: 250px;}
+/*demo*/
+.box{width:25%;float:left;}
+.box img{width:220px;height:128px;border:2px solid #06cbbc;}
+.box p{width:220px;margin:0 auto;}
+
+/*skill*/
+.box h3{color:#FFF;background-color:#06cbbc;margin:10px;box-shadow:0 0 6px #9CA394;
+	-moz-box-shadow:0 0 6px #9CA394;-webkit-box-shadow:0 0 6px #9CA394;}
+.box ul{list-style-type:circle;padding-left:26px;}
+.box li{text-align:left;line-height:30px;}
+
+/*experience*/
+.info{margin-top:60px;}
+
+/*about*/
+.section2{width:33%;float:left;margin:50px 0;}
+.section2 img{width:100px;height:90px;}
+.about p{line-height:30px;}
